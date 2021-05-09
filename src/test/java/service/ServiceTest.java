@@ -176,7 +176,7 @@ class ServiceTest {
     @org.junit.jupiter.api.Test
     void extendDeadline() {
         int result = service.extendDeadline("2", 2);
-        assertTrue(result > 0);
+        assertTrue(result >= 0);
     }
 
     @org.junit.jupiter.api.Test
